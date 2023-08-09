@@ -6,12 +6,17 @@ public class Main {
     public static void main(String[] args) {
 
         int sayi;int sum=0;
+        boolean kontrol=false;
         Scanner inp=new Scanner(System.in);
-        System.out.print("Sayı: ");
-        sayi=inp.nextInt();
-        for(int i=1; i<=sayi; i+=2){
-            sum+=i;
+        while (!kontrol){
+            System.out.print("Sayı: ");
+            sayi=inp.nextInt();
+            if(sayi%2==1){
+                kontrol=true; // tek sayi girilene kadar giris yapilir
+            }else if(sayi%4==0){
+                sum+=sayi;
+            }
         }
-        System.out.print(sum);
+        System.out.println("2 ve 4ün katı olan sayıların toplamı: "+sum);
     }
 }
