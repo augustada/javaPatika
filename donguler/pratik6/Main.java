@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int sayi,birler,onlar,yuzler,binler;
+        int sayi,toplam=0;
         Scanner inp = new Scanner(System.in);
         System.out.print("Sayı: ");
         sayi = inp.nextInt();
-        birler=sayi%10;
-        onlar=(sayi%100-birler)/10;
-        yuzler=(sayi%1000-onlar)/100;
-        binler=(sayi-sayi%1000)/1000;
-        System.out.println(birler+onlar+yuzler+binler);
+        while(sayi != 0)
+        {
+            toplam=(sayi%10)+toplam;
+            sayi /= 10;
+        }
+        System.out.println(toplam);
     }
 }
