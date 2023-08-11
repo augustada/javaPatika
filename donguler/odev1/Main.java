@@ -1,22 +1,22 @@
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-
-        for(int i=2; i<=100;i++){
-            int sayac=0;
-            for (int j=2; j<i;j++){
-
-                if(i%j==0){
-                    sayac=1;
-                    break;
-                }
+        int num,adet,max=0,min=0;
+        Scanner inp= new Scanner(System.in);
+        System.out.print("Kaç sayı girilecek: ");
+        adet=inp.nextInt();
+        for(int i=1; i<=adet;i++){
+            System.out.print(i+".Sayı: ");
+            num=inp.nextInt();
+            if(num<=min){
+                min=num;
             }
-            if (sayac==0){
-                System.out.println(i);
+            if(num>=max){
+                max=num;
             }
         }
+        System.out.println("En büyük sayı: "+max);
+        System.out.println("En küçük sayı: "+min);
     }
 }
