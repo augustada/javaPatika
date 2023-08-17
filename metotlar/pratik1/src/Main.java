@@ -2,33 +2,31 @@ import java.util.Scanner;
 import java.math.*;
 
 public class Main {
-    static int basamak(int a){
-        int basamak=0;
-        while (a > 0) {
+    static boolean palindrom(int num){
+        int basamak=0; int temp=num,temp1=num;
+        while (temp > 0) {
             basamak++;
-            a/=10;
+            temp/=10;
         }
-        return basamak;
-    }
-    static int tersi(int num){
         int x,ters=0;
-        int n=basamak(num);
-        while (num > 0){
-            n--;
-            x=num%10;
-            ters+=x*(Math.pow(10,n));
-            num/=10;
+        while (temp1 > 0){
+            basamak--;
+            x=temp1%10;
+            ters+=x*(Math.pow(10,basamak));
+            temp1/=10;
         }
-        return ters;
+        if(num==ters)
+            return true;
+        else
+            return false;
     }
     public static void main(String[] args) {
         int sayi;
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı: ");
         sayi=input.nextInt();
-        int n=basamak(sayi);
-        int psayi=tersi(sayi);
-        if(sayi==psayi){
+        boolean paln=palindrom(sayi);
+        if(paln){
             System.out.println(sayi+" palindrom sayıdır.");
         }
         else {
