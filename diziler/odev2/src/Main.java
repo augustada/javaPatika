@@ -9,7 +9,7 @@ public class Main {
             int count = 0;
             boolean isCount = false;
 
-            for (int k = j - 1; k >= 0; --k) {
+            for (int k = 0; k <= j-1; k++) {
                 if (list[k] == list[j]) {
                     isCount = true;
                     break;
