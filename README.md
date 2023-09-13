@@ -1,12 +1,5 @@
-# JavaPatika 
-## Bölümlere göre pratikler ve ödevler:
-* Temel Kavramlar ve Değişkenler
-* Koşullu İfadeler ve Kod Blokları
-* Döngüler
-* Metotlar
-* Sınıflar
-* Diziler
-* Diğer Konular
-* Bitirme Projesi
-* Mayın Tarlası
-
+# Patika Akademi
+## Başlangıç Seviye Java Patikası
+   Java101 Projeleri ve Ödevleri
+## Orta Seviye Java Patikası
+   Java101 Projeleri ve Ödevleri
