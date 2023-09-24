@@ -1,6 +1,6 @@
 # Patika Academy
 ## Beginner Java Backend Patika - Başlangıç Seviye Java Patikası
-*  Java101 Projeleri ve Ödevleri
+*  Java101 
 ## Intermediate Java Backend Patika - Orta Seviye Java Patikası
 * Access Modifiers - Erişim Belirleyiciler
 * Object Oriented Programming and Interface
