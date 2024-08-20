@@ -12,7 +12,9 @@
 * Kullanıcı ürünleri benzersiz numaralarına göre silebilmeli.
 * Kullanıcı ürünlerin benzersiz numaralarına ve markalarına göre filtreleyip listeleyebilmeli.
 
-- Marka Listeleme Örneği
+----------------------------------------------------
+
+1. Marka Listeleme Örneği
  
   ```
   PatikaStore Ürün Yönetim Paneli !
@@ -35,7 +37,7 @@
   ```
 --------------------------------------
 
-  - Ürün Listeleme Örneği
+  2. Ürün Listeleme Örneği
 
   ```
 Notebook Listesi
