@@ -12,25 +12,26 @@
 * Kullanıcı ürünleri benzersiz numaralarına göre silebilmeli.
 * Kullanıcı ürünlerin benzersiz numaralarına ve markalarına göre filtreleyip listeleyebilmeli.
 
-- Marka Listeleme Örneği 
+- Marka Listeleme Örneği
+ 
   ```
   PatikaStore Ürün Yönetim Paneli !
-1 - Notebook İşlemleri
-2 - Cep Telefonu İşlemleri
-3 - Marka Listele
-0 - Çıkış Yap
-Tercihiniz : 3
-Markalarımız
---------------
-- Apple
-- Asus
-- Casper
-- HP
-- Huawei
-- Lenovo
-- Monster
-- Samsung
-- Xiaomi
+  1 - Notebook İşlemleri
+  2 - Cep Telefonu İşlemleri
+  3 - Marka Listele
+  0 - Çıkış Yap
+  Tercihiniz : 3
+  Markalarımız
+  --------------
+  - Apple
+  - Asus
+  - Casper
+  - HP
+  - Huawei
+  - Lenovo
+  - Monster
+  - Samsung
+  - Xiaomi
   ```
 --------------------------------------
 
